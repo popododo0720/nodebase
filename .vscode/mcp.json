@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "Sentry": {
+      "url": "https://mcp.sentry.dev/mcp/500k/nodebase",
+      "type": "http"
+    }
+  }
+}
