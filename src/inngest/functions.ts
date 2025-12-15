@@ -11,9 +11,9 @@ export const execute = inngest.createFunction(
     async ({ event, step }) => {
         await step.sleep("pretend", "5s");
 
-        Sentry.logger.info('User triggered test log', { log_source: 'sentry_test' });
-        console.warn("Something is missing");
-        console.error("this is error what i want");
+        // Sentry.logger.info('User triggered test log', { log_source: 'sentry_test' });
+        // console.warn("Something is missing");
+        // console.error("this is error what i want");
 
         const { steps } = await step.ai.wrap(
             "gemini-generate-text",
